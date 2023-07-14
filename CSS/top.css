@@ -13,12 +13,12 @@
     display: block;
     width: 44px;
     height: 44px;
-    background: url("img/hannbaga-.png") center center / 35px 20px no-repeat;
+    background: url(img/hannbaga-.png) center center / 35px 20px no-repeat;
     cursor:pointer;
 }
 
 .nav-toggle:checked ~ .btn-burger{
-    background: url("..img/x.svg") center center /26px 26px no-repeat;
+    background: url(img/x.svg) center center /26px 26px no-repeat;
 }
 
 .nav {
