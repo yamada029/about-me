@@ -1,7 +1,7 @@
 /* Topのみで使うCSS　*/
 @charset "UTF-8";
 
-.nav-toggle{
+.nav-toggle {
     display: none;
 }
 
@@ -13,33 +13,33 @@
     display: block;
     width: 44px;
     height: 44px;
-    background: url(img/hannbaga-.png) center center / 35px 20px no-repeat;
+    background:url(../img/ダウンロード.png) center center / 35px 20px no-repeat;
     cursor:pointer;
 }
 
 .nav-toggle:checked ~ .btn-burger{
-    background: url(img/x.svg) center center /26px 26px no-repeat;
+    background: url(../img/1d28c460119b23f33362f331bbfb627a.jpg) center center /26px 26px no-repeat;
 }
 
 .nav {
-    padding-top: 10px;
-    background: url(img/hannbaga-.png)center center / cover no-repeat;
+    padding-top: 0px;
+    background: url(../img\hannbaga-.png)center center / cover no-repeat;
 }
 
-nav-list {
+.nav-list {
     display: none;
     margin:  0;
     padding-bottom: 10px;
 }
 
-.nav-list li{
+.nav-list li {
     margin: 0;
     padding: 10px;
 }
 
 .nav-list a {
     display: block;
-    color: #fff;
+    color: #000000;
 }
 
 .nav-toggle:checked ~ .nav .nav-list{
