@@ -1,1 +1,10 @@
 /*　サイト全体に適応するCSS　　*/
+
+.nav-toggle {
+    display: none;
+}
+
+.body{
+    
+    background-image:url(../img/francesco-ungaro-WtnY2b6PPNA-unsplash.jpg);
+}

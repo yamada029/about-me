@@ -5,7 +5,23 @@
     display: none;
 }
 
+.body{
+    
+    background-image:url(../img/francesco-ungaro-WtnY2b6PPNA-unsplash.jpg);
+}
+
+
+.body{
+    color: aliceblue;
+
+}
+
+.nav-list a{
+    color: aliceblue;
+}
+
 .btn-burger {
+    color: aliceblue;
     position: absolute;
     top: 5px;
     right: 10px;
@@ -23,7 +39,7 @@
 
 .nav {
     padding-top: 0px;
-    background: url(../img\hannbaga-.png)center center / cover no-repeat;
+    background: url(../img/paper_00041.jpg)center center / cover no-repeat;
 }
 
 .nav-list {
