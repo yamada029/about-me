@@ -11,6 +11,8 @@
 }
 
 
+
+
 .body{
     color: aliceblue;
 
@@ -35,6 +37,27 @@
 
 .nav-toggle:checked ~ .btn-burger{
     background: url(../img/1d28c460119b23f33362f331bbfb627a.jpg) center center /26px 26px no-repeat;
+}
+
+.nav {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.nav-list li{
+    display: inline-block;
+    margin: 0;
+    border-left: 1px solid #806342
+}
+
+.nav-list li:first-child{
+    border-left: none;
+}
+
+.nav-list a{
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 1.2;
+    text-transform: uppercase;
 }
 
 .nav {
