@@ -8,3 +8,81 @@
     
     background-image:url(../img/francesco-ungaro-WtnY2b6PPNA-unsplash.jpg);
 }
+
+.h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+
+.body{
+    color: aliceblue;
+
+}
+
+.nav-list a{
+    color: aliceblue;
+}
+
+.btn-burger {
+    color: aliceblue;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 2;
+    display: block;
+    width: 44px;
+    height: 44px;
+    background:url(../img/ダウンロード.png) center center / 35px 20px no-repeat;
+    cursor:pointer;
+}
+
+.nav-toggle:checked ~ .btn-burger{
+    background: url(../img/1d28c460119b23f33362f331bbfb627a.jpg) center center /26px 26px no-repeat;
+}
+
+.nav {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.nav-list li{
+    display: inline-block;
+    margin: 0;
+    border-left: 1px solid #806342
+}
+
+.nav-list li:first-child{
+    border-left: none;
+}
+
+.nav-list a{
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.nav {
+    padding-top: 0px;
+    background: url(../img/paper_00041.jpg)center center / cover no-repeat;
+}
+
+.nav-list {
+    display: none;
+    margin:  0;
+    padding-bottom: 10px;
+}
+
+.nav-list li {
+    margin: 0;
+    padding: 10px;
+}
+
+.nav-list a {
+    display: block;
+    color: #000000;
+}
+
+.nav-toggle:checked ~ .nav .nav-list{
+    display: block;
+}
